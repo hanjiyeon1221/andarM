@@ -1,0 +1,41 @@
+/* 공통 요소 */
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.wrapper {
+    min-width: 320px;
+}
+
+/* --h2제목 */
+.headline {
+    padding-bottom: 22px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #333;
+    letter-spacing: -0.05em;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* color */
+.ft_red {
+    color: #e55427;
+}
+
+.relative {
+    position: relative;
+}
+
+.link-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
